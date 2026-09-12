@@ -1,7 +1,7 @@
 # Base de compatibilidad, no un lockfile auditado.
 # Revisar advisories y resolver versiones en un entorno virtual antes de instalar.
 numpy>=1.26,<3
-opencv-python>=4.10,<5
+opencv-python>=5.0.0.93,<6
 ultralytics>=8.3,<9
 torch>=2.6,<3
 pygame>=2.6,<3
