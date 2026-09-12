@@ -1,0 +1,10 @@
+# Base de compatibilidad, no un lockfile auditado.
+# Revisar advisories y resolver versiones en un entorno virtual antes de instalar.
+numpy>=1.26,<3
+opencv-python>=4.10,<5
+ultralytics>=8.3,<9
+torch>=2.6,<3
+pygame>=2.6,<3
+pyttsx3>=2.98,<3
+primesense==2.2.0.30
+pywin32>=308; sys_platform == "win32"
